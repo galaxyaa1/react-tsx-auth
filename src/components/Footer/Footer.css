@@ -1,0 +1,27 @@
+.footer {
+    background-color: #343a40;
+    color: #fff;
+    padding: 5px 0;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+  }
+  
+  .footer h5 {
+    margin: 0;
+  }
+  
+  .footer p {
+    margin: 0;
+  }
+  
+  .social-icon {
+    color: #fff;
+    margin: 0 10px;
+    font-size: 1.5rem;
+    transition: color 0.3s ease;
+  }
+  
+  .social-icon:hover {
+    color: #007bff;
+  }

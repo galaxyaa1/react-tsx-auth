@@ -1,0 +1,45 @@
+.navbar-nav .nav-link {
+  color: #000;
+  padding: 0.5rem 1rem;
+  transition: color 0.3s ease;
+}
+
+.navbar-nav .nav-link:hover {
+  color: #007bff;
+}
+  
+  .navbar-nav {
+    width: 100%;
+    display: flex;
+    justify-content: center; 
+  }
+  
+
+  .custom-navbar {
+    width: 100%;
+    background: linear-gradient(90deg, rgba(255,0,150,0.3), rgba(0,204,255,0.3));
+    animation: backgroundAnimation 1s infinite alternate;
+  }
+  
+  .logo {
+    width: 50px;
+    height: auto;
+  }
+  
+  @keyframes backgroundAnimation {
+    0% {
+      background: linear-gradient(90deg, rgba(255,0,150,0.3), rgba(0,204,255,0.3));
+    }
+    100% {
+      background: linear-gradient(90deg, rgba(0,204,255,0.3), rgba(255,0,150,0.3));
+    }
+  }
+  
+  .navbar-nav .nav-link {
+    color: #000;
+  }
+  
+  .navbar-nav .nav-link:hover {
+    color: #007bff;
+  }
+  
